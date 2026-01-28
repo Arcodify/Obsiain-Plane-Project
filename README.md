@@ -1,6 +1,6 @@
 # Plane Project Obsidian Plugin
 
-Manage [Plane projects](https://plane.so/) without leaving Obsidian: sync modules and work items, create and edit issues, view them in a Kanban board, and generate linked notes that push changes back to Plane when you want.
+Manage [Plane projects](https://plane.so/) with boards, modules, and syncing.: sync modules and work items, create and edit issues, view them in a Kanban board, and generate linked notes that push changes back to Plane when you want.
 
 ## What you can do
 - Sync all modules and work items for a chosen Plane project.
