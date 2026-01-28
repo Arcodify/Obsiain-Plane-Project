@@ -1,0 +1,11 @@
+{
+	"id": "plane-project",
+	"name": "Plane Project",
+	"version": "1.2.0",
+	"minAppVersion": "0.15.0",
+	"description": "Work with Plane projects directly inside Obsidian.",
+	"author": "Arcodify",
+	"authorUrl": "https://arcodify.com",
+	"fundingUrl": "https://obsidian.md/pricing",
+	"isDesktopOnly": false
+}

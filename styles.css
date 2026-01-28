@@ -1,0 +1,123 @@
+.plane-hub {
+	padding: 16px;
+}
+
+.plane-hub__header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 12px;
+	margin-bottom: 12px;
+}
+
+.plane-hub__actions {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.plane-hub__muted {
+	color: var(--text-muted);
+	font-size: 12px;
+}
+
+.plane-hub__section {
+	border: 1px solid var(--background-modifier-border);
+	border-radius: 10px;
+	padding: 12px;
+	margin-top: 10px;
+}
+
+.plane-hub__filters {
+	margin-bottom: 6px;
+}
+
+.plane-hub__row {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 10px;
+}
+
+.plane-hub__list {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+	gap: 10px;
+	margin-top: 10px;
+}
+
+.plane-hub__card {
+	border: 1px solid var(--background-modifier-border);
+	border-radius: 8px;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+}
+
+.plane-hub__card-title {
+	font-weight: 600;
+}
+
+.plane-hub__card-meta {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 6px;
+	color: var(--text-muted);
+	font-size: 12px;
+}
+
+.plane-hub__card-header {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	justify-content: space-between;
+}
+
+.plane-hub__pill {
+	background: var(--interactive-normal);
+	color: var(--text-on-accent);
+	padding: 2px 8px;
+	border-radius: 999px;
+	font-size: 11px;
+}
+
+.plane-input {
+	width: 100%;
+}
+
+.plane-board {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+	gap: 12px;
+	margin-top: 10px;
+}
+
+.plane-board__column {
+	border: 1px solid var(--background-modifier-border);
+	border-radius: 8px;
+	padding: 8px;
+	background: var(--background-secondary);
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	max-height: 70vh;
+	overflow-y: auto;
+}
+
+.plane-board__column-head {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-weight: 600;
+}
+
+.plane-board__card {
+	border: 1px solid var(--background-modifier-border);
+	border-radius: 6px;
+	padding: 8px;
+	background: var(--background-primary);
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+}
